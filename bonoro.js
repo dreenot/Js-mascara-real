@@ -1,7 +1,7 @@
 function ibonoros(valor) {
     valor = valor.toString().replace(/\D/g,"");
     valor = valor.toString().replace(/(\d)(\d{2})$/,"$1.$2");
-    return valor                    
+    return Number(valor);                    
 }
 function bonoros(valor, min){
 	vd = 0;
